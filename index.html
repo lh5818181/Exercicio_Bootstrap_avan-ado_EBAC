@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bootstrap-ebac</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg conteudo">
+            <div class="container">
+                <h1>Titulo do Site</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#principal">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#secao2">Cards de informações</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container conteudo">
+        <main>
+            <section class="principal">
+                <h2>Carrosel</h2>
+                <article class="informações">
+                    <div data-bs-interval="3000" id="carousel-inicio" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                        <div class="carousel inner">
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/08/03/14/14/night-8167272_1280.jpg">
+                                <div class="carousel-caption">
+                                    <h2>Noite escura</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/07/02/12/21/eclipse-1492818_1280.jpg">
+                                <div class="carousel-caption">
+                                    <h2>Eclipse</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000"  class="carousel-item">
+                                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/07/27/14/49/milky-way-8153503_1280.jpg">
+                                <div class="carousel-caption">
+                                    <h2>Céu Noturno</h2>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <button data-bs-target="#carousel-inicio" type="button" class="carousel-control-prev" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+        
+                        <button data-bs-target="#carousel-inicio" type="button" class="carousel-control-next" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+        
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="carousel-inicio" class="active" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="carousel-inicio" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="carousel-inicio" data-bs-slide-to="2"></button>
+                        </div>
+        
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+    
+    <div class="container">
+        <section class="secao2">
+            <h2>Cards</h2>
+            <div class="info">
+                <div class="col-8">
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+                </div>
+                
+                <div class="col-md-4">
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+        
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+        
+                    <article class="informações">
+                        <div class="card text-bg-dark">
+                            <img src="https://static.preparaenem.com/2020/11/astronomia.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-tittle">Titulo do card</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maiores voluptates earum debitis culpa consequatur 
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão Link</a>
+                            </div>
+                        </div>    
+                    </article>
+                </div>
+               
+    
+    
+            </div>
+        </section>
+    
+    </div>
+   
+    
+
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
